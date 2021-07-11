@@ -2,6 +2,15 @@
     width: 300px;
 }
 
+.card-nota-cabecalho {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalho {
+    margin-top: 5px;
+}
+
 .shadow {
     margin: 10px;
     padding: 3px 5px 3px 10px;
