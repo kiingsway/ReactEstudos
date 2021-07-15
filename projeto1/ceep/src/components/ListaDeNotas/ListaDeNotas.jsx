@@ -6,10 +6,10 @@ class ListaDeNotas extends Component {
 
   render() {
     return (
-      <ul>
+      <ul className="lista-notas">
         {this.props.notas.map((nota, index) => {
           return (
-            <li className="" key={index}>
+            <li className="notas-item" key={index}>
               <CardNota
               indice={index}
               apagarNota={this.props.apagarNota}
