@@ -4,9 +4,9 @@ import './estilo.css'
 class ListaDeCategorias extends Component {
 
     _handleEventoInput(e) {
-        if(e.key === "Enter"){
-            this.props.addCategoria(e.target.value)
-
+        if (e.key === "Enter" && e.target.value.length >= 1){
+            this.props.addCategoria(e.target.value);
+            e.target.value = '';
         }
     }
 
